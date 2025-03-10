@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        h2{
+            background-color: antiquewhite;
+            border:1px solid blueviolet;
+            text-align: center;
+            color: rgb(46, 98, 188);
+            height:35px;
+            width: 50%;
+            margin-left: 410px;
+            padding-top: 10px;
+            border-radius: 250px;
+            text-transform: uppercase;
+            text-shadow: 1px 2px black;
+        }
+
+        .container1{
+            background-color: orange;
+            height: 200px;
+            width: 300px;
+            background-image: linear-gradient(yellow,white);
+            margin-top: 10px;
+            margin-left:160px;
+            padding: 5% 5%;
+            border-radius: 10px;
+            opacity: 0.8;
+        }
+        button[type=button]{
+            width: 60px;
+            margin-right: 100px;
+            margin-top: 15px;
+            background-color: red;
+        }
+        input[type=text],input[type=password]{
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+        }
+       
+        button{
+            background-color: rgb(117, 108, 214);
+            color: white;
+            border-radius: 5px;
+            width: 250px;
+            padding: auto;
+            margin-left: 20px;
+            cursor: pointer;
+            opacity: 0.8;
+        }
+        button:hover{
+            background-color: rgb(19, 62, 62);
+        }
+        img{
+            border-radius: 50%;
+            margin-top: 50px;
+            margin-left: 280px;
+            width: 120px;
+            opacity: 0.6;
+        }
+        .p{
+            border: 2px solid black;
+            height: 600px;
+            margin-left: 450px;
+            margin-right: 390px;
+            align-items: center;
+            border-radius: 12px;
+            background-image: url(12.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        span.psw {
+        float: right;
+        padding-top: 16px;
+        }
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h2>my name is ant man</h2>
+    <form action="">
+        <div class="p">
+            <div class="img">
+                <img src="avatar2.png" alt="omg">
+            </div><br>
+            <div class="container1">
+                
+                <label for="uname"><b>Full Name </b></label>
+                <input type="text" id = "uname" placeholder="enter name" name="uname" required><br>
+    
+                <label for="pwd"><b>college Name </b></label>
+                <input type="password" id = "pwd" placeholder="enter name" name="pwd" required><br><br>
+    
+                <button type="submit">login</button> <br><br>
+                
+                <label for="">
+                    <input type="checkbox" name="" id="">remmber me
+                </label><br>
+    
+                <div class="container2">
+                    <button type="button"><b>Cancel</b></button>
+                    <span class="pwd">Forgot <a href="#">Possword?</a></span>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
